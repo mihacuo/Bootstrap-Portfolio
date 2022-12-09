@@ -14,37 +14,40 @@
 
 <body>
   <!-- Navigation -->
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Profile</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Projects</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Skills</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contacts</a>
-    </li>
+  <nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacts">Contacts</a>
+      </li>
 
-  </ul>
-
+    </ul>
+  </nav>
   <!-- End of Navigation -->
 
 
   <!-- Hero section & Jumbotron Profile -->
   <section class="profile">
     <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <div class="one-line-profile">
+      <img src="./images/linkedin-2815969_640.jpg" width="90px" alt="" class="logo mr-3">
+      <h1 class="display-4">Mihhail Odnolko</h1>   </div>
+      <p class="lead">Free Website development (or coding for food)</p>
+ 
+      <hr class="my-4">
+   
     </div>
   </section>
   <!-- End of Hero section & Jumbotron -->
@@ -58,11 +61,41 @@
         <h4>Projects</h4>
 
       </div>
-      <div class="col-sm12 col-md-5 col-lg-5">A</div>
-      <div class="col-sm12 col-md-5 col-lg-5">B</div>
+      <div class="col-sm12 col-md-5 col-lg-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/project1.jpg" class="card-img-top" alt="..." height="170px">
+          <div class="card-body">
+            <p class="card-text">New new new! Round Sushi!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm12 col-md-5 col-lg-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/project2.jpg" class="card-img-top" alt="..." height="170px">
+          <div class="card-body">
+            <p class="card-text">Farmers growing plums</p>
+          </div>
+        </div>
+      </div>
       <div class="col-sm12 col-md-2 col-lg-2"></div>
-      <div class="col-sm12 col-md-5 col-lg-5">C</div>
-      <div class="col-sm12 col-md-5 col-lg-5">D</div>
+      <div class="col-sm12 col-md-5 col-lg-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/project3.jpg" class="card-img-top" alt="..." height="170px">
+          <div class="card-body">
+            <p class="card-text">Order roses delivered online</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm12 col-md-5 col-lg-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/project4.jpg" class="card-img-top" alt="..." height="170px">
+          <div class="card-body">
+            <p class="card-text">Stocks for pension fund site
+
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!-- End of Past projects section -->
@@ -78,21 +111,21 @@
   </section>
   <!-- End of My skills section -->
 
-
   <!-- About me section -->
   <section id="about" class="container ">
     <div class="row">
       <div class="col-sm-12 col-md-2 col-lg-2 title">
         <h4 class="">About me</h4>
       </div>
-      <div class="col-sm-12 col-md-10 col-lg-10">Attention to detail. 2 years of front end development. Open to long-term
+      <div class="col-sm-12 col-md-10 col-lg-10">Attention to detail. 2 years of front end development. Open to
+        long-term
         and short-term projects</div>
     </div>
   </section>
   <!-- End of About me section -->
 
   <!-- Contact section -->
-  <section id="about" class="container ">
+  <section id="contacts" class="container ">
     <div class="row">
       <div class="col-sm-12 col-md-2 col-lg-2 title">
         <h4>Contact us</h4>
@@ -110,9 +143,7 @@
     </a>
   </section>
   <!-- End of Footer section  -->
-
 </body>
-
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
