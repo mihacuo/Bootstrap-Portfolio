@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+  <title>My portfolio in Bootstrap</title>
 </head>
 
 <body>
@@ -17,19 +17,19 @@
   <nav>
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Profile</a>
+        <a class="nav-link text-reset" href="#profile">Profile</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link text-reset" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link text-reset" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">About </a>
+        <a class="nav-link text-reset" href="#about">About </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contacts">Contacts</a>
+        <a class="nav-link text-reset" href="#contacts">Contacts</a>
       </li>
 
     </ul>
@@ -42,12 +42,13 @@
     <div class="jumbotron">
       <hr class="my-4">
       <div class="one-line-profile">
-      <img src="./images/linkedin-2815969_640.jpg" width="90px" alt="" class="logo mr-3">
-      <h1 class="display-4">Mihhail Odnolko</h1>   </div>
-      <p class="lead">Free Website development (or coding for food)</p>
- 
+        <img src="./images/Photo 2019.jpg" width="160px" alt="" class="logo mr-3">
+        <h1 class="display-4 ">Mihhail Odnolko</h1>
+      </div>
+      <p class="lead font-weight-bold">Free Website development (or coding for food)</p>
+
       <hr class="my-4">
-   
+
     </div>
   </section>
   <!-- End of Hero section & Jumbotron -->
@@ -62,39 +63,58 @@
 
       </div>
       <div class="col-sm12 col-md-5 col-lg-5">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/project1.jpg" class="card-img-top" alt="..." height="170px">
-          <div class="card-body">
-            <p class="card-text">New new new! Round Sushi!</p>
+
+        <a target="_blank" href="https://www.mochimommy.com/temari-sushi/">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/project1.jpg" class="card-img-top" alt="..." height="170px">
+            <div class="card-body">
+              <p class="card-text">New new new! Round Sushi!</p>
+            </div>
           </div>
-        </div>
+        </a>
+
+
+
       </div>
       <div class="col-sm12 col-md-5 col-lg-5">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/project2.jpg" class="card-img-top" alt="..." height="170px">
-          <div class="card-body">
-            <p class="card-text">Farmers growing plums</p>
+        <a target="_blank" href="https://clockhousefarm.co.uk/plums/">
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/project2.jpg" class="card-img-top" alt="..." height="170px">
+            <div class="card-body">
+              <p class="card-text">Farmers growing plums</p>
+            </div>
           </div>
-        </div>
+        </a>
+
       </div>
       <div class="col-sm12 col-md-2 col-lg-2"></div>
       <div class="col-sm12 col-md-5 col-lg-5">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/project3.jpg" class="card-img-top" alt="..." height="170px">
-          <div class="card-body">
-            <p class="card-text">Order roses delivered online</p>
+
+        <a target="_blank" href="https://www.waitroseflorist.com/roses">
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/project3.jpg" class="card-img-top" alt="..." height="170px">
+            <div class="card-body">
+              <p class="card-text">Order roses delivered online</p>
+            </div>
           </div>
-        </div>
+        </a>
+
       </div>
       <div class="col-sm12 col-md-5 col-lg-5">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/project4.jpg" class="card-img-top" alt="..." height="170px">
-          <div class="card-body">
-            <p class="card-text">Stocks for pension fund site
+        <a target="_blank" href="https://thepeoplespension.co.uk/investment-funds/">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/project4.jpg" class="card-img-top" alt="..." height="170px">
+            <div class="card-body">
+              <p class="card-text">Stocks for pension fund site
 
-            </p>
+              </p>
+            </div>
           </div>
-        </div>
+
+        </a>
+
       </div>
     </div>
   </section>
@@ -106,8 +126,14 @@
       <div class="col-sm-12 col-md-2 col-lg-2 title">
         <h4>Skills</h4>
       </div>
-      <div class="col-sm-12 col-md-10 col-lg-10">HTML, CSS and Javascript. Front end developement</div>
-    </div>
+      <div class="col-sm-12 col-md-10 col-lg-10">
+        HTML, CSS and Javascript
+        <br>
+        Front end developement
+        <br>
+        Python. Flask and Sqlalchemy
+
+      </div>
   </section>
   <!-- End of My skills section -->
 
@@ -119,7 +145,10 @@
       </div>
       <div class="col-sm-12 col-md-10 col-lg-10">Attention to detail. 2 years of front end development. Open to
         long-term
-        and short-term projects</div>
+        and short-term projects
+        <br>
+        Easy starter, can work on my own initiative as well as part of the team.
+      </div>
     </div>
   </section>
   <!-- End of About me section -->
