@@ -63,3 +63,8 @@ nav {
 nav li {
   color: white;
 }
+.linkedin-image:hover {
+  width: 55px;
+  box-shadow: 5px;box-shadow: 3px 3px grey;
+}
+
