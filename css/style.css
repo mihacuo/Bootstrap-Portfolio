@@ -1,0 +1,18 @@
+:root {
+  --col1: #149fc8;
+  --col2: #9fc5e8;
+}
+body {
+  background-color: var(--col2);
+}
+.jumbotron {
+  width: 80%;
+  margin: auto;
+}
+section {
+  margin-bottom: 40px;
+}
+.title {
+  border-right: 2px solid var(--col1);
+}
+
