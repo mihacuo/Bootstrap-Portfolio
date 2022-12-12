@@ -67,4 +67,8 @@ nav li {
   width: 55px;
   box-shadow: 5px;box-shadow: 3px 3px grey;
 }
-
+.linked:hover {
+ border: 2px var(--col4) solid;
+ text-decoration: none;
+ font-size: 1.1rem;
+}
